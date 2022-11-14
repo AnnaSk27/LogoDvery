@@ -1,0 +1,55 @@
+@media screen and (max-width:992px) {
+  body {
+    font-size: 20px;
+    .number-phone {
+      font-size: 0.9em;
+    }
+    header {
+      padding: 3rem 0rem;
+    }
+    .popcat {
+      a {
+        p {
+          font-size: 1em;
+        }
+      }
+    }
+    .form_zamer {
+      button {
+        margin-bottom: 1.5rem;
+      }
+    }
+    .popgoods {
+      .row {
+        .title {
+          margin: 0;
+        }
+        h4 {
+          padding: 1rem;
+          margin: 1rem 3rem;
+        }
+        padding-bottom: 0;
+        div {
+          margin-bottom: 1.5rem;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width:768px) {
+  body .title {
+    &:before, &:after {
+      content: '';
+      display: none;
+    }
+  }
+  .number-phone {
+    padding: 0.3rem 0;
+  }
+  header {
+    h4, p {
+      padding: 0 0.3rem;
+      text-align: center;
+    }
+  }
+}
